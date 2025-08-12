@@ -1,10 +1,11 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTests extends TestBase{
+public class LoginTests extends TestBase {
     @BeforeMethod
     public void preCondition() {
         //if Logged in present--->logout
@@ -20,26 +21,32 @@ public class LoginTests extends TestBase{
         app.getHelperUser().fillLoginForm("margo@gmail.com", "Mmar123456$");
         app.getHelperUser().submitLogin();
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
-        app.getHelperUser().clickOkButton();
+      //  app.getHelperUser().clickOkButton();
     }
 
 
-        //Assert
+    //Assert
 //        Assert.assertEquals();
 //        Assert.assertNotEquals();
 //        Assert.assertTrue();
 //        Assert.assertFalse();
-       // Assert.assertTrue(app.getHelperUser().isLogged());
+    // Assert.assertTrue(app.getHelperUser().isLogged());
 
-//    @Test
-//    public void loginSuccess2() {
-//        app.getHelperUser().openLoginForm();
-//        app.getHelperUser().fillLoginForm("margopolotsk1980@gmail.com", "Margo270380$");
-//        app.getHelperUser().submitLogin();
-//
-//
+    @Test
+    public void loginSuccessModel() {
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm("margopolotsk1980@gmail.com", "Margo270380$");
+        app.getHelperUser().submitLogin();
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+       // app.getHelperUser().clickOkButton();
+
+
 //        Assert.assertTrue(app.getHelperUser().isLogged());
     }
+    @AfterMethod
+    public void postCondition(){
+        app.getHelperUser().clickOkButton();
+    }
 
-
+}
 

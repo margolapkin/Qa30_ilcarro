@@ -30,13 +30,13 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isLogged() {
-        return isElementPresent(By.xpath("//button[@type='button']"));
+        return isElementPresent(By.xpath("//*[text()=' Logout ']"));
 
 
     }
 
     public void logout() {
-        click(By.xpath("//a[@href='/logout?url=%2Fsearch']"));
+        click(By.xpath("//*[text()=' Logout ']"));
 
     }
 
