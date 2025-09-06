@@ -1,0 +1,5 @@
+20:40:02.947 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+20:40:04.274 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+20:40:04.308 INFO  tests.TestBase -- Name of method--->loginWrongPassword
+20:40:09.364 INFO  tests.TestBase -- Test data--->email:'margo@gmail.com'& password:'Mmar123'
+20:40:11.509 INFO  tests.TestBase -- Assert check is error Text 'Login or Password incorrect'appeared

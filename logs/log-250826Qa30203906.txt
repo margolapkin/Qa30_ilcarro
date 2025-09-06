@@ -1,0 +1,6 @@
+20:39:08.330 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+20:39:09.736 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+20:39:09.761 INFO  tests.TestBase -- Name of method--->loginEmptyEmail
+20:39:14.817 INFO  tests.TestBase -- Test data--->email:''& password:'Mmar123456$'
+20:39:15.406 INFO  tests.TestBase -- Assert check is error Text 'Email is required'appeared
+20:39:15.406 INFO  tests.TestBase -- Assert check is button Yalla not active

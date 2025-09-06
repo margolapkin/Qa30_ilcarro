@@ -1,0 +1,6 @@
+17:45:32.247 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+17:45:33.750 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+17:45:33.794 INFO  tests.TestBase -- Name of method--->loginSuccess
+17:45:38.827 INFO  tests.TestBase -- Start test with name'loginSuccess'
+17:45:38.828 INFO  tests.TestBase -- Test data--->email:'margo@gmail.com'& password:'Mmar123456$'
+17:45:40.644 INFO  tests.TestBase -- End

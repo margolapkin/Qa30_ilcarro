@@ -1,0 +1,15 @@
+20:42:17.810 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+20:42:19.052 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+20:42:19.075 INFO  tests.TestBase -- Name of method--->loginEmptyEmail
+20:42:24.147 INFO  tests.TestBase -- Test data--->email:''& password:'Mmar123456$'
+20:42:24.728 INFO  tests.TestBase -- Assert check is error Text 'Email is required'appeared
+20:42:24.730 INFO  tests.TestBase -- Assert check is button Yalla not active
+20:42:29.758 INFO  tests.TestBase -- Name of method--->loginEmptyPassword
+20:42:34.808 INFO  tests.TestBase -- Test data--->email:'margo@gmail.com'& password:''
+20:42:35.292 INFO  tests.TestBase -- Assert check is error Text 'Password is required'appeared
+20:42:35.292 INFO  tests.TestBase -- Assert check is button Yalla not active
+20:42:40.310 INFO  tests.TestBase -- Name of method--->loginSuccess
+20:42:45.325 INFO  tests.TestBase -- Start test with name'loginSuccess'
+20:42:45.326 INFO  tests.TestBase -- Test data--->email:'margo@gmail.com'& password:'Mmar123456$'
+20:42:46.869 INFO  tests.TestBase -- Assert check is Element button 'Sign out'present
+20:42:51.938 INFO  tests.TestBase -- Name of method--->loginSuccess1

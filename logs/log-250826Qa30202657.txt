@@ -1,0 +1,6 @@
+20:26:59.423 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+20:27:00.977 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+20:27:01.026 INFO  tests.TestBase -- Name of method--->loginWrongEmail
+20:27:06.087 INFO  tests.TestBase -- Test data--->email:'margogmail.com'& password:'Mmar123456$'
+20:27:06.698 INFO  tests.TestBase -- Assert check is error Text 'It's not look like email'appeared
+20:27:06.698 INFO  tests.TestBase -- Assert check is button Yalla not active

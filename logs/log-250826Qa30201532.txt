@@ -1,0 +1,6 @@
+20:15:37.496 INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+20:15:38.961 INFO  manager.ApplicationManager -- The link--->https://ilcarro.web.app/search
+20:15:39.008 INFO  tests.TestBase -- Name of method--->loginSuccess
+20:15:44.050 INFO  tests.TestBase -- Start test with name'loginSuccess'
+20:15:44.051 INFO  tests.TestBase -- Test data--->email:'margo@gmail.com'& password:'Mmar123456$'
+20:15:45.772 INFO  tests.TestBase -- Assert check is Element button 'Sign out'present
